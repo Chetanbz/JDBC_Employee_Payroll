@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-25T11:24:41" hostname="DESKTOP-2M5MM2B" time="0.77">
+<testsuite name="EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-25T18:50:23" hostname="DESKTOP-2M5MM2B" time="0.382">
   <properties/>
-  <testcase name="givenEmployeePayrollDB_WhenRetrieved_ShouldMatchEmployeeCount" classname="EmployeePayrollServiceTest" time="0.77"/>
+  <testcase name="givenNewEmployee_WhenAdded_ShouldSyncWithDB" classname="EmployeePayrollServiceTest" time="0.382"/>
   <system-out><![CDATA[connecting to the database:jdbc:mysql://localhost:3306/employee_payroll?useSSL=false
 connection is successful!!!!com.mysql.jdbc.JDBC4Connection@2daf72cc
+connecting to the database:jdbc:mysql://localhost:3306/employee_payroll?useSSL=false
+connection is successful!!!!com.mysql.jdbc.JDBC4Connection@800be00
+connecting to the database:jdbc:mysql://localhost:3306/employee_payroll?useSSL=false
+connection is successful!!!!com.mysql.jdbc.JDBC4Connection@3f34306f
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
