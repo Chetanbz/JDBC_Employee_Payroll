@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-25T18:50:23" hostname="DESKTOP-2M5MM2B" time="0.382">
+<testsuite name="EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-26T10:59:11" hostname="DESKTOP-2M5MM2B" time="0.411">
   <properties/>
-  <testcase name="givenNewEmployee_WhenAdded_ShouldSyncWithDB" classname="EmployeePayrollServiceTest" time="0.382"/>
+  <testcase name="givenNewEmployee_WhenAddedToDB_ShouldMatchEmployeeEntries" classname="EmployeePayrollServiceTest" time="0.411"/>
   <system-out><![CDATA[connecting to the database:jdbc:mysql://localhost:3306/employee_payroll?useSSL=false
-connection is successful!!!!com.mysql.jdbc.JDBC4Connection@2daf72cc
+connection is successful!!!!com.mysql.jdbc.JDBC4Connection@56c6c578
 connecting to the database:jdbc:mysql://localhost:3306/employee_payroll?useSSL=false
-connection is successful!!!!com.mysql.jdbc.JDBC4Connection@800be00
+connection is successful!!!!com.mysql.jdbc.JDBC4Connection@3b0cb83
 connecting to the database:jdbc:mysql://localhost:3306/employee_payroll?useSSL=false
-connection is successful!!!!com.mysql.jdbc.JDBC4Connection@3f34306f
+connection is successful!!!!com.mysql.jdbc.JDBC4Connection@78f83ed0
+connecting to the database:jdbc:mysql://localhost:3306/employee_payroll?useSSL=false
+connection is successful!!!!com.mysql.jdbc.JDBC4Connection@6387f98d
+connecting to the database:jdbc:mysql://localhost:3306/employee_payroll?useSSL=false
+connection is successful!!!!com.mysql.jdbc.JDBC4Connection@70e1d521
+connecting to the database:jdbc:mysql://localhost:3306/employee_payroll?useSSL=false
+connection is successful!!!!com.mysql.jdbc.JDBC4Connection@187151ed
+connecting to the database:jdbc:mysql://localhost:3306/employee_payroll?useSSL=false
+connection is successful!!!!com.mysql.jdbc.JDBC4Connection@1476ecf2
+Duration without Thread PT0.1615976S
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
